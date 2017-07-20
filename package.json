@@ -2,9 +2,12 @@
   "name": "public",
   "version": "1.0.0",
   "description": "a todo app",
-  "main": "app.js",
+  "main": "app.js","engines": {
+    "node": "6.11.1",
+    "npm": "3.10.10"
+  },
   "scripts": {
- "start":"app.js",
+ "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me",
